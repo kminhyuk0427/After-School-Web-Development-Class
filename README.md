@@ -1,4 +1,13 @@
 경북대학교 컴퓨터공학과 교수님께서 진행하시는 방과후 수업
 
-0611 - html 기초 틀 만들기
-0618 - 
+
+git config user.name (github 이름)
+
+git config user.email (github 이메일)
+
+
+0611 -HTML5 문서 구조와 작성 규칙
+
+0618 - 기본 태그와 멀티미디어 태그
+
+0625 - 
