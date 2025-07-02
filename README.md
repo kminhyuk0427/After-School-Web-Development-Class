@@ -12,4 +12,4 @@ git config user.email (github 이메일)
 
 0625 - 입력 양식 태그와 공간 분할 태그
 
-0702 - 
+0702 - CSS3 기본 사용법과 선택자, CSS3 속성

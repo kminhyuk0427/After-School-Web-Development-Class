@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 박스의 안쪽 여백과 바깥쪽 여백 지정</title>
+    <style>
+        p {
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+        p.pad {
+            color: purple;
+            padding: 20px;
+        }
+
+        p.mar {
+            color: green;
+            margin: 30px;
+        }
+
+        p.mp {
+            color: blue;
+            padding: 5%;
+            margin: 5%;
+        }
+    </style>
+</head>
+<body>
+    <p>박스 안쪽 여백이랑 밖에 여백 지정하기</p>
+    <p class="pad">안쪽(패딩) 여백</p>
+    <p class="mar">바깥쪽(마진) 여백</p>
+    <p class="mp">둘다 지정</p>
+</body>
+</html>

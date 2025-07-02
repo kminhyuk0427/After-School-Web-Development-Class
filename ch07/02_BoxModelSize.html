@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스의 내용 영역 크기 지정</title>
+    <style>
+        /* 가로 끝까지 */
+        p {
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+        /* 그냥 픽셀로 지정 */
+        p.c1 {
+            width: 700px;
+            height: 80px;
+            color: green;
+        }
+        /* %로 지정해서 비율에 맞춰짐 */
+        p.c2 {
+            width: 50%;
+            height: 150%;
+            color: purple;
+        }
+        /* cm는 비추 */
+        p.c3 {
+            width: 10cm;
+            height: 3cm;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>박스 모델의 내용 영역 크기 지정</p>
+    <p class="c1">(1) 박스 모델의 크기를 픽셀(px) 단위로 지정</p>
+    <p class="c2">(2) 박스 모델의 크기를 퍼센트(%) 단위로 지정</p>
+    <p class="c3">(3) 박스 모델의 크기를 센티미터(cm) 단위로 지정</p>
+</body>
+
+</html>
