@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여백을 네 방향으로 지정</title>
+    <style>
+        body{
+            font-weight: bold;
+            font-size: 16pt;
+        }
+        .mp1{
+            background-color: blue;
+            color: red;
+            margin-bottom: 40px;
+            padding-left: 50px;
+        }
+        .mp2 {
+            background-color: green;
+            color: white;
+            margin: 20px;
+            padding: 10px, 20px; /* 아래+위, 왼+오 */
+        }
+        .mp3 {
+            background-color: yellow;
+            color: black;
+            margin: 50px 20px 30px ; /* 위, 오른쪽, 아래 */
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body style="background-color: lightyellow;">
+    <p>박스 모델의 네 방향 여백 지정</p>
+    <p class="mp1">mp1</p>
+    <p class="mp2">mp2</p>
+    <p class="mp3">mp3</p>
+</body>
+
+</html>
