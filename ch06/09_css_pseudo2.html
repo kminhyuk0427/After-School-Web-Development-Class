@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마우스 대면 움직임</title>
+    <style>
+        div {
+            width: 200px;
+            height: 100px;
+            color: blue;
+            background: green;
+            opacity: 0.9;
+        }
+
+        /* 가상 클래스 */
+        div:hover {
+            width: 400px;
+            height: 50px;
+            color: red;
+            background: yellow;
+            opacity: 0.5;
+            transition: all 1.5s linear 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>가상 선택자</h2>
+    <div>
+        가상 클래스를 이용한 애니메이션 효과<br>
+        마우스가 위에 있으면 박스가 늘어나요.
+    </div>
+</body>
+
+</html>
