@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자손 선택자</title>
+    <style>
+        body>div>h3 {
+            color: red;
+        }
+
+        body>p {
+            color: green;
+            background-color: yellow;
+        }
+
+        body>h3>tel>home {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>
+            child_selector_1
+        </h3>
+    </div>
+    <p>자식 선택자</p>
+    <h3>
+        <min>123456</min><br>
+        <std>김민혁</std><br>
+        <tel>
+            <office>07-7777-7777</office><br>
+            <home>010-1010-1010</home>
+        </tel>
+    </h3>
+</body>
+
+</html>
