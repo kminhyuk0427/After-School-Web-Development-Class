@@ -2,7 +2,6 @@
 
 
 git config user.name kminhyuk0427
-
 git config user.email kminhyuk0427@gmail.com
 
 
